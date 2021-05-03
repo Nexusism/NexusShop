@@ -15,8 +15,9 @@ spring:
     open-in-view: false
     show-sql: true
     hibernate:
+#      show_sql : true
       format_sql: true
-      ddl-auto: none
+      ddl-auto: create
 
   devtools:
     livereroad:
@@ -24,11 +25,7 @@ spring:
     freemarker:
       cache: false
 
-logging:
-  level:
-    org:
-      hibernate:
-        SQL: DEBUG
-        type:
-          descriptor:
-            sql:
+logging.level:
+  org.hibernate.SQL: DEBUG
+  org.hibernate.type: trace
+

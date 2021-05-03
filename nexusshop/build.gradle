@@ -24,6 +24,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-devtools'
+	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.6' // P6Spy 쿼리 로그
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'mysql:mysql-connector-java'
 	annotationProcessor 'org.projectlombok:lombok'
@@ -36,6 +37,5 @@ dependencies {
 
 test {
 	useJUnitPlatform()
-	//JUnit4 추가
 
 }
