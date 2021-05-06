@@ -1,5 +1,6 @@
 package nexusbook.nexusshop;
 
+import nexusbook.nexusshop.domain.Member;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;

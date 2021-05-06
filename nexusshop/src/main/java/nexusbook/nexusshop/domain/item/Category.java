@@ -1,0 +1,35 @@
+package nexusbook.nexusshop.domain.item;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
+
+@Entity
+@Getter @Setter
+public class Category {
+
+    @Id
+    @GeneratedValue
+    @Column(name = "category_id")
+    private Long id;
+
+    private String name;
+
+    @ManyToMany
+    @JoinTable(name = "category_item",
+            joinColumns = @JoinColumn(name = "category_id"),
+            inverseJoinColumns = @JoinColumn(name = "item_id")) // 중간테이블 매핑 필요 관계성DB는 중간테이블이 있어야함
+                                                                // 실무에선 다대다매핑 사용안함
+    private List<Item> items = new ArrayList<>();
+
+    @ManyToOne
+    @JoinColumn(name ="parent_id")
+    private Category parent;
+
+    @OneToMany(mappedBy = "parent")
+    private List<Category> child = new ArrayList<>();
+
+}
