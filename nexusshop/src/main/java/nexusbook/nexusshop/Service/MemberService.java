@@ -24,8 +24,9 @@ public class MemberService {
     //}
 
 
-    @Transactional // 저장은 readOnly하면 변경이안됨
+     // 저장은 readOnly하면 변경이안됨
     //회원 가입
+     @Transactional
     public Long join(Member member) {
 
         validateDuplicateMember(member); // 중복 회원 검증

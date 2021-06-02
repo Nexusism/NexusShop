@@ -90,16 +90,14 @@
       <recent name="nexusbook.nexusshop.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.NexusshopApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MemberServiceTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,6 +137,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nexusshop.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nexusbook.nexusshop.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nexusbook.nexusshop.Service" />
+      <option name="MAIN_CLASS_NAME" value="nexusbook.nexusshop.Service.MemberServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberServiceTest.회원가입" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nexusshop.test" />
       <extension name="coverage">
@@ -155,6 +168,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberServiceTest.중복_회원_예외" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nexusshop.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nexusbook.nexusshop.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nexusbook.nexusshop.Service" />
+      <option name="MAIN_CLASS_NAME" value="nexusbook.nexusshop.Service.MemberServiceTest" />
+      <option name="METHOD_NAME" value="중복_회원_예외" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NexusshopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="nexusshop.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="nexusbook.nexusshop.NexusshopApplication" />
@@ -164,6 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberServiceTest" />
+        <item itemvalue="JUnit.MemberServiceTest.중복_회원_예외" />
         <item itemvalue="JUnit.MemberServiceTest.회원가입" />
         <item itemvalue="JUnit.MemberRepositoryTest.testMember" />
         <item itemvalue="Gradle.NexusshopApplicationTests" />
@@ -189,6 +220,7 @@
       <workItem from="1621860746297" duration="709000" />
       <workItem from="1622554140419" duration="5576000" />
       <workItem from="1622643149702" duration="1099000" />
+      <workItem from="1622644510947" duration="3537000" />
     </task>
     <servers />
   </component>
@@ -222,56 +254,56 @@
     </state>
     <state x="744" y="281" key="FileChooserDialogImpl/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1621860068003" />
     <state x="744" y="285" key="FileChooserDialogImpl/0.0.1920.1052/-140.-768.1360.768@0.0.1920.1052" timestamp="1617026286137" />
-    <state width="910" height="470" key="GridCell.Tab.0.bottom" timestamp="1622644248808">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1622648297714">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="910" height="470" key="GridCell.Tab.0.bottom/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622644248808" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622648297714" />
     <state width="1318" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1036/1920.0.1360.768@1920.0.1360.768" timestamp="1620053767383" />
     <state width="1318" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1052/-140.-768.1360.768@-140.-768.1360.768" timestamp="1617724844133" />
     <state width="1654" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1052/-140.-768.1360.768@0.0.1920.1052" timestamp="1617027822048" />
-    <state width="910" height="470" key="GridCell.Tab.0.center" timestamp="1622644248808">
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1622648297714">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="910" height="470" key="GridCell.Tab.0.center/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622644248808" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622648297714" />
     <state width="1318" height="327" key="GridCell.Tab.0.center/0.0.1920.1036/1920.0.1360.768@1920.0.1360.768" timestamp="1620053767383" />
     <state width="1318" height="287" key="GridCell.Tab.0.center/0.0.1920.1052/-140.-768.1360.768@-140.-768.1360.768" timestamp="1617724844133" />
     <state width="1654" height="283" key="GridCell.Tab.0.center/0.0.1920.1052/-140.-768.1360.768@0.0.1920.1052" timestamp="1617027822048" />
-    <state width="910" height="470" key="GridCell.Tab.0.left" timestamp="1622644248808">
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1622648297714">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="910" height="470" key="GridCell.Tab.0.left/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622644248808" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622648297714" />
     <state width="1318" height="327" key="GridCell.Tab.0.left/0.0.1920.1036/1920.0.1360.768@1920.0.1360.768" timestamp="1620053767383" />
     <state width="1318" height="287" key="GridCell.Tab.0.left/0.0.1920.1052/-140.-768.1360.768@-140.-768.1360.768" timestamp="1617724844133" />
     <state width="1654" height="283" key="GridCell.Tab.0.left/0.0.1920.1052/-140.-768.1360.768@0.0.1920.1052" timestamp="1617027822048" />
-    <state width="910" height="470" key="GridCell.Tab.0.right" timestamp="1622644248808">
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1622648297714">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="910" height="470" key="GridCell.Tab.0.right/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622644248808" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622648297714" />
     <state width="1318" height="327" key="GridCell.Tab.0.right/0.0.1920.1036/1920.0.1360.768@1920.0.1360.768" timestamp="1620053767383" />
     <state width="1318" height="287" key="GridCell.Tab.0.right/0.0.1920.1052/-140.-768.1360.768@-140.-768.1360.768" timestamp="1617724844133" />
     <state width="1654" height="283" key="GridCell.Tab.0.right/0.0.1920.1052/-140.-768.1360.768@0.0.1920.1052" timestamp="1617027822048" />
-    <state width="910" height="470" key="GridCell.Tab.1.bottom" timestamp="1622644248808">
+    <state width="1878" height="474" key="GridCell.Tab.1.bottom" timestamp="1622648297712">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="910" height="470" key="GridCell.Tab.1.bottom/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622644248808" />
+    <state width="1878" height="474" key="GridCell.Tab.1.bottom/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622648297712" />
     <state width="1318" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1052/-140.-768.1360.768@-140.-768.1360.768" timestamp="1617724844133" />
     <state width="1878" height="283" key="GridCell.Tab.1.bottom/0.0.1920.1052/-140.-768.1360.768@0.0.1920.1052" timestamp="1617026374207" />
-    <state width="910" height="470" key="GridCell.Tab.1.center" timestamp="1622644248808">
+    <state width="1878" height="474" key="GridCell.Tab.1.center" timestamp="1622648297712">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="910" height="470" key="GridCell.Tab.1.center/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622644248808" />
+    <state width="1878" height="474" key="GridCell.Tab.1.center/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622648297712" />
     <state width="1318" height="287" key="GridCell.Tab.1.center/0.0.1920.1052/-140.-768.1360.768@-140.-768.1360.768" timestamp="1617724844133" />
     <state width="1878" height="283" key="GridCell.Tab.1.center/0.0.1920.1052/-140.-768.1360.768@0.0.1920.1052" timestamp="1617026374207" />
-    <state width="910" height="470" key="GridCell.Tab.1.left" timestamp="1622644248808">
+    <state width="1878" height="474" key="GridCell.Tab.1.left" timestamp="1622648297712">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="910" height="470" key="GridCell.Tab.1.left/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622644248808" />
+    <state width="1878" height="474" key="GridCell.Tab.1.left/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622648297712" />
     <state width="1318" height="287" key="GridCell.Tab.1.left/0.0.1920.1052/-140.-768.1360.768@-140.-768.1360.768" timestamp="1617724844133" />
     <state width="1878" height="283" key="GridCell.Tab.1.left/0.0.1920.1052/-140.-768.1360.768@0.0.1920.1052" timestamp="1617026374207" />
-    <state width="910" height="470" key="GridCell.Tab.1.right" timestamp="1622644248808">
+    <state width="1878" height="474" key="GridCell.Tab.1.right" timestamp="1622648297712">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="910" height="470" key="GridCell.Tab.1.right/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622644248808" />
+    <state width="1878" height="474" key="GridCell.Tab.1.right/0.0.1920.1036/1920.0.1360.768@0.0.1920.1036" timestamp="1622648297712" />
     <state width="1318" height="287" key="GridCell.Tab.1.right/0.0.1920.1052/-140.-768.1360.768@-140.-768.1360.768" timestamp="1617724844133" />
     <state width="1878" height="283" key="GridCell.Tab.1.right/0.0.1920.1052/-140.-768.1360.768@0.0.1920.1052" timestamp="1617026374207" />
     <state x="465" y="160" key="SettingsEditor" timestamp="1620049716035">
