@@ -34,7 +34,7 @@ public class MemberServiceTest {
         Long saveId = memberService.join(member);
 
         // then 이렇게된다
-       // em.flush(); // 인서트 쿼리를 보고싶으면,
+        em.flush(); // 인서트 쿼리를 보고싶으면,
        assertEquals(member, memberRepository.findOne(saveId));
      }
 
