@@ -2,6 +2,7 @@ package nexusbook.nexusshop.Controller;
 
 import lombok.RequiredArgsConstructor;
 import nexusbook.nexusshop.Service.MemberService;
+import nexusbook.nexusshop.web.MemberForm;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
