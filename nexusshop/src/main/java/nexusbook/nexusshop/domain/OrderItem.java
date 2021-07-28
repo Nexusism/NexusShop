@@ -33,8 +33,9 @@ public class OrderItem {
         orderItem.setItem(item);
         orderItem.setOrderPrice(orderPrice);
         orderItem.setCount(count);
-
+        System.out.println("주문에서 보낸 값(11이어야함) =" + count);
         item.removeStock(count);
+        System.out.println(count);
         return orderItem;
     }
 

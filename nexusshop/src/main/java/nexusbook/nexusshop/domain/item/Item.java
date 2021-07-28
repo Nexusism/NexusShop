@@ -30,9 +30,11 @@ public abstract class Item {
         this.stockQuantity += quantity;
     }
     public void removeStock(int quantity) {
+        System.out.println("removeStock이 실행되는지?");
         int restStock = this.stockQuantity - quantity;
+        System.out.println(restStock);
         if (restStock < 0) {
-            throw new NotEnoughStockException("need more stock");
+            throw new NotEnoughStockException("need more stock");   //왜 예외발생을 안하지? OrderService Test에서
         }
         this.stockQuantity = restStock;
     }
